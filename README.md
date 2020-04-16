@@ -1,4 +1,4 @@
-# University Database Search System
+# Database Search System using C++
 
 ## About
 This search system is a database-like program that takes simple SQL SELECT queries as input and retrieves the data requested by user. The purpose of this program is use tree data structure in storing and retrieving data and not to exactly implement SQL query system.
@@ -39,7 +39,7 @@ Run program:
 ./program.exe
 ```
 
-You will then be prompted to enter a table name:
+You will then be prompted to enter a table name (you can also use stations):
 ```console
 Welcome to myDB, please enter tablename> students
 ```
