@@ -54,4 +54,11 @@ Index column: uin
 Index column: netid
   Tree size: 6
   Tree height: 2
+  
+  Enter query>    
+```
+
+You can now enter a SELECT query (note: not all SQL statements and clauses are supported):
+```console
+  select netid from table where uin = 123456
 ```
