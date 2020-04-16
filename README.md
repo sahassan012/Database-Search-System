@@ -1,7 +1,7 @@
 # University Database Search System
 
 ## About
-This search system is a database-like program that takes SQL SELECT queries as input and retrieves the data requested by user.
+This search system is a database-like program that takes simple SQL SELECT queries as input and retrieves the data requested by user.
 
 ## How it works:
 First, the program uses a metadata file that consists of data that indicates which columns are indexed. 
@@ -60,5 +60,10 @@ Index column: netid
 
 You can now enter a SELECT query (note: not all SQL statements and clauses are supported):
 ```console
-  select netid from table where uin = 123456
+  select netid from students where uin = 123456
+```
+
+Output:
+```console
+  netid: psarka12
 ```
