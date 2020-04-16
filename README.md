@@ -34,7 +34,7 @@ A table is represented using 2 files:
         732290 soo kim skim21 skim21@uic.edu ...........................................
     ```
 ## How to run(from command line)
-Run program:
+Run program within /base directory:
 ```console
 ./program.exe
 ```
