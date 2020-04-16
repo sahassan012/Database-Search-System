@@ -9,6 +9,9 @@ It then builds and uses trees to find the data that is index or uses linear sear
 
 A table is represented using 2 files:
 * meta-data file(.meta)
+  - Line 1 : record size(offset)
+  - Line 2 : # of columnss
+  - ..rest of the lines: column name + integer (1 if indexed, 0 if not) 
   - Example:
     ```console
       82
@@ -20,6 +23,7 @@ A table is represented using 2 files:
       email 0
     ```
 * data file(.data)
+  - Each line consists: uin, first name, last name, netid, and email address
   - Example:
     ```console
         123456 pooja sarkar psarka12 pooja@piazza.com ..................................
