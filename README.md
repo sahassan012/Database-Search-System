@@ -60,10 +60,10 @@ Index column: netid
 
 You can now enter a SELECT query (note: not all SQL statements and clauses are supported):
 ```console
-  select netid from students where uin = 123456
+Enter query> select netid from students where uin = 123456
 ```
 
 Output:
 ```console
-  netid: psarka12
+netid: psarka12
 ```
