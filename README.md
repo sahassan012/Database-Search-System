@@ -1,4 +1,4 @@
-# Database Search System using C++
+# Database Search System
 
 ## About
 This search system is a database-like program that takes simple SQL SELECT queries as input and retrieves the data requested by user. The purpose of this program is use tree data structure in storing and retrieving data and not to exactly implement SQL query system.
