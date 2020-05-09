@@ -1,7 +1,7 @@
 # Database Search System
 
 ## About
-This search system is a database-like program that takes simple SQL SELECT queries as input and retrieves the data requested by user. The purpose of this program is use tree data structure in storing and retrieving data and not to exactly implement SQL query system.
+This search system is a database-like program that takes simple SQL SELECT queries as input and retrieves the data requested by user. The purpose of this program is use AVL tree data structure in storing and retrieving data. The AVL tree rotates left or right depending on the balance factor of the subtrees and maintains an efficient retrieval process as a result.
 
 ## How it works:
 First, the program uses a metadata file that consists of data that indicates which columns are indexed. 
